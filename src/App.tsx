@@ -8,7 +8,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/website">
       <ScrollToTop />
       <div className="min-h-screen selection:bg-brand-green selection:text-brand-bg flex flex-col">
         <Header />
